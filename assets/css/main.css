@@ -487,7 +487,7 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
-  background-image: url("../");
+  background-image: url("../img/_Bold\ Lettering\ Tumblr\ Banner.png");
   background-position: left center;
   background-repeat: no-repeat;
   font-size: 16px;
@@ -1452,6 +1452,14 @@ section,
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
+/* .features {
+  background-image: url("../img/_Bold\ Lettering\ Tumblr\ Banner.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  position: relative;
+} */
+
 .features .features-item {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
