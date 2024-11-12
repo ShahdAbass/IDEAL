@@ -495,8 +495,8 @@ h6 {
 }
 @media (max-width: 640px) {
   .footer {
-    background-position: center 50px;
-    background-size: contain;
+    background-position:left center;
+    background-size: cover;
   }
 }
 
@@ -861,8 +861,9 @@ section,
 .hero h2 {
   color: black;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  /* padding-top: 50px; */
+  margin-top: 130px;
+  margin-bottom: 10px;
   font-size: 38px;
   font-weight: 700;
   animation: fadeInDown 1s both;
@@ -999,8 +1000,8 @@ section,
 }
 
 .services .service-item .icon img {
-  /* color:rgba(120, 119, 119, 0.85) ; */
-  background: rgba(120, 119, 119, 0.85);
+  /*color:rgba(120, 119, 119, 0.85) ;
+  */background: rgba(120, 119, 119, 0.85);
   margin: 5px auto 5px auto;
   width: 94px;
   height: 94px;
@@ -1011,13 +1012,21 @@ section,
   margin-bottom: 20px;
   font-size: 28px;
   transition: ease-in-out 0.3s;
+  -webkit-transition: ease-in-out 0.3s;
+  -moz-transition: ease-in-out 0.3s;
+  -ms-transition: ease-in-out 0.3s;
+  -o-transition: ease-in-out 0.3s;
 }
 
 .services .service-item h3 {
-  font-weight: 700;
+  font-weight: 500;
   margin:auto auto;
-  font-size: 22px;
+  font-size: 16px;
   transition: ease-in-out 0.3s;
+  -webkit-transition: ease-in-out 0.3s;
+  -moz-transition: ease-in-out 0.3s;
+  -ms-transition: ease-in-out 0.3s;
+  -o-transition: ease-in-out 0.3s;
 }
 
 .services .service-item p {
