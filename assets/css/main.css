@@ -780,10 +780,14 @@ section,
   text-transform: uppercase;
   border-radius: 50px;
   font-family: var(--default-font);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 .section-title div {
-  color: var(--heading-color);
+  color: black;
   margin: 10px 0 0 0;
   font-size: 32px;
   font-weight: 700;
@@ -855,12 +859,14 @@ section,
 }
 
 .hero h2 {
-  color: rgba(45, 45, 45, 0.85);
+  color: black;
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   animation: fadeInDown 1s both;
+  -webkit-animation: fadeInDown 1s both;
 }
 
 @media (max-width: 768px) {
@@ -946,10 +952,6 @@ section,
 }
 
 
-
-
-
-
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -957,7 +959,7 @@ section,
   text-align: center;
 }
 .about .read-more {
-  background: rgba(120, 119, 119, 0.85) ;
+  background: #8c8c8c ;
   color: var(--contrast-color);
   font-family: var(--heading-font);
   font-weight: 500;
@@ -971,6 +973,10 @@ section,
   align-items: center;
   justify-content:center;
   margin: auto;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 .about .read-more:hover {
@@ -1313,7 +1319,7 @@ section,
 
 .testimonials:before {
   content: "";
-  background: color-mix(in srgb, rgba(120, 119, 119, 0.85), transparent 30%);
+  background: color-mix(in srgb, #8c8c8c, transparent 30%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -1538,7 +1544,7 @@ section,
 # Features Section
 --------------------------------------------------------------*/
 .features {
-  background-image: url("../img/contact.png");
+  background-image: url("../img/");
   background-position: left center;
   background-repeat: no-repeat;
   font-size: 16px;
@@ -1597,7 +1603,7 @@ section,
 }
 
 .features .features-item img {
-  border: 6px solid var(--surface-color);
+  /* border: 6px solid var(--surface-color); */
   box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
 }
 
@@ -1648,14 +1654,14 @@ section,
 /* Start Timeline */
 .timeline {
   min-height: 600px;
-  background-image: url('../img/contact.png');
+  background-image: url('../img/');
   background-size: cover;
   padding-top: 80px;
   padding-bottom: 80px;
   position: relative;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #ebe7e7; 
+  background-color: #8c8c8c; 
 }
 .timeline .timeline-content {
   position: relative;
@@ -1665,7 +1671,7 @@ section,
   content: '';
   width: 2px;
   height: 100%;
-  background-color: rgba(96, 96, 96, 0.85);
+  background-color: black;
   position: absolute;
   left: 50%;
   margin-left: -1px;
@@ -1675,7 +1681,7 @@ section,
   margin: 20px auto;
   width: 50px;
   height: 50px;
-  background-color: rgba(120, 119, 119, 0.85);
+  background-color: black;
   position: relative;
   z-index: 2;
   border-radius: 50%;
@@ -1739,7 +1745,7 @@ section,
   margin: 0 0 10px;
 }
 .timeline .timeline-content .content p {
-  color: #666;
+  color: black;
   margin: 0;
   line-height: 1.6;
 }
