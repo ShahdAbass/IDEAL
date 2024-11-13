@@ -1115,22 +1115,14 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
-.service .service-item {
-  /* background-color: var(--surface-color);
+.service {
+  background-color: var(--surface-color);
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 30px;
   transition: all ease-in-out 0.3s;
   border-radius: 18px;
   border-bottom: 5px solid var(--surface-color);
-  height: 100%; */
-  /* background-image: url(../img/01.jpg);
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
   height: 100%;
-  object-fit: cover;
-  z-index: 1; */
 }
 
 .service  .read-more {
@@ -1155,7 +1147,7 @@ section,
 }
 
 .service .service-item .icon img {
-  /* color:rgba(120, 119, 119, 0.85) ; */
+  color:rgba(120, 119, 119, 0.85) ;
   background: rgba(120, 119, 119, 0.85);
   margin: 5px auto 5px auto;
   width: 70px;
@@ -1166,14 +1158,14 @@ section,
   justify-content: center;
   margin-bottom: 20px;
   font-size: 28px;
-  /* transition: ease-in-out 0.3s; */
+  transition: ease-in-out 0.3s;
 }
 
 .service .service-item h3 {
-  font-weight: 700;
-  margin:auto auto;
-  font-size: 22px;
-  /* transition: ease-in-out 0.3s; */
+  font-weight: 500;
+  margin:30px auto;
+  font-size: 18px;
+  transition: ease-in-out 0.3s;
 }
 
 .service .service-item p {
@@ -1216,32 +1208,6 @@ section,
 .clients .swiper-slide img:hover {
   transform: scale(1.1);
 }
-
-
-
-
-
-/*--------------------------------------------------------------
-# Clients Section
---------------------------------------------------------------*/
-.clients .swiper {
-  padding: 10px 0;
-}
-
-.clients .swiper-wrapper {
-  height: auto;
-}
-
-.clients .swiper-slide img {
-  transition: 0.3s;
-}
-
-.clients .swiper-slide img:hover {
-  transform: scale(1.1);
-}
-
-
-
 
 
 
